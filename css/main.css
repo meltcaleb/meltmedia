@@ -1,0 +1,419 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### GENERAL ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+body {
+	background: #6C96C3;
+}
+
+h1, h2, p, a {
+	color: #fff;
+	font-family: "adelle", serif;
+}
+
+h1, h2 {
+	font-weight: 300;
+}
+
+h1 span, h2 span {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 100;
+}
+
+p span {
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgb(32, 50, 70);
+}
+
+span {
+	font-weight: bold;
+}
+
+.button {
+	border: 1px solid #dcdcdc;
+	padding: 9px 18px;
+	margin: 0px auto;
+	background-color: rgba(32, 50, 70, 0)
+}
+
+.button:hover {
+	background-color: rgba(32, 50, 70, 0.075);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### HEADER ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+header {
+	width: 100%;
+}
+
+.logo {
+	content: url(../img/logo.png);
+	padding: 25px 0px;
+	margin: 0px auto;
+}
+
+nav {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0px .5em 0px 0px;
+	font-size: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:visited {
+	color: #fff;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### HERO #hero ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#hero {
+	width: 100%;
+	height: auto;
+	background: url(../img/hero-background.png) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.copy {
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+
+}
+
+.mockup {
+	width: 80%;
+	float: center;
+	margin: 0px auto;
+	padding-bottom: 20px;
+	content: url(../img/device-mockups.png);
+}
+
+#hero h1 {
+	margin: 0;
+	font-size: 3em;
+	line-height: 1.25em;
+}
+
+#hero p {
+	text-align: center;
+	font-size: 1em;
+	font-family: "HelveticaNeue-Light", serif;
+	line-height: 2em;
+	padding-bottom: 20px;
+}
+
+#hero p span {
+	font-family: "HelveticaNeue", serif;
+}
+
+#hero a:hover {
+	padding: 9px 18px;
+	border: 1px solid #dcdcdc;
+}
+
+#hero nav a:hover {
+	padding: 0px 0px 5px 0px;
+	border: none;
+	border-bottom: 2px solid rgb(32, 50, 70);
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### WHAT WE DO #whatwedo ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#what-we-do {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: center;
+}
+
+#what-we-do h2 {
+	width: 80%;
+	color: #89B8EA;
+	font-size: 2.375em;
+	padding-top: 20px;
+	margin: 0px auto;
+}
+
+#what-we-do p {
+	width: 80%;
+	margin: 0px auto;
+	font-family: "HelveticaNeue-Light", serif;
+	color: #878787;
+	font-size: 1em;
+	line-height: 1.75em;
+	padding: 10px 0px 10px 0px;
+}
+
+#what-we-do img {
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+}
+
+/*#what-we-do .pointing-up {
+	background-image: url(../img/pointing-up.png);
+}
+
+#what-we-do .smiley {
+	background-image: url(../img/smiley.png);
+}
+
+#what-we-do .chart {
+	background-image: url(../img/chart.png);
+}
+
+#what-we-do .conversation {
+	background-image: url(../img/conversation.png);
+}
+
+#what-we-do .connection {
+	background-image: url(../img/connection.png);
+}*/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### CALL FOR SUPERHEROES #superheroes ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#super-heros {
+	width: 100%;
+	background: url(../img/careers-background.png) no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 20px;
+}
+
+#super-heros h2 {
+	color: #ffffff;
+	font-size: 2.375em;
+	padding-top: 20px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#super-heros p {
+	/*padding-bottom: 20px;*/
+	color: #ffffff;
+	font-size: 1em;
+	text-align: center;
+}
+
+#super-heros .small {
+	padding: 10px 0px 20px 0px;
+	color: #ffffff;
+	font-size: .75em;
+	text-align: center;
+}
+
+#super-heros a:hover {
+	padding: 9px 18px;
+	border: 1px solid #dcdcdc;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### VIDEO #homevideo ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### CONTACT INFO SECTION #contactinfo ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#contact-info {
+	width: 100%;
+	background: url(../img/google-map.png);
+	background-size: cover;
+	margin: 0px auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact-box {
+	background-color: rgba(35, 31, 32, 0.75);
+	padding: 25px 30px 25px 30px;
+}
+
+#contact-info h2 {
+	color: #ffffff;
+	font-size: 1.75em;
+	margin-top: 10px;
+	font-weight: 100;
+}
+
+#contact-info h2 span {
+	font-weight: 600;
+}
+
+#contact-info .contact-box p {
+	font-size: .875em;
+}
+
+#contact-info p span {
+	font-size: 1em;
+}
+
+#contact-info .contact-box ul {
+	padding: 0px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+#contact-info .contact-box li {
+	display: inline;
+	margin: 0px auto;
+	display: inline;
+	padding: 0px;
+}
+
+#contact-info a, #contact-info a:hover {
+	padding: 0px;
+	border: none;
+}
+
+.facebook {
+	content: url(../img/facebook.png);
+	margin-right: 10%;
+}
+
+.twitter {
+	content: url(../img/twitter.png);
+	margin-right: 10%;
+}
+
+.linkedin {
+	content: url(../img/linkedin.png);
+	margin-right: 10%;
+}
+
+.instagram {
+	content: url(../img/instagram.png);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### CONTACT FORM SECTION #contact ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#contact-form {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+#contact-form h2 {
+	color: #6C96C3;
+	font-size: 2.375em;
+	padding-top: 50px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#contact-form p {
+	width: 80%;
+	color: #878787;
+	font-family: "HelveticaNeue-Light", serif;
+	font-size: 1.125em;
+	text-align: center;
+	margin: 20px auto;
+}
+
+form {
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.125em;
+	padding-bottom: 20px;
+}
+
+.name, .email {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.super-power {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.mission {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.submit {
+	border: 1px solid #dcdcdc;
+	padding: 9px 18px;
+	background-color: rgba(32, 50, 70, 0)
+}
+
+.submit:hover {
+	background-color: rgba(32, 50, 70, 0.075);
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+### FOOTER ###
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+footer {
+	width: 100%;
+	background-color: #6C96C3;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+footer p {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 1.125em;
+}
