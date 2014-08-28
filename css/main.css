@@ -8,7 +8,7 @@ body {
 
 h1, h2, p, a {
 	color: #fff;
-	font-family: "adelle", serif;
+	font-family: "adelle", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 h1, h2 {
@@ -128,13 +128,13 @@ nav a:visited {
 #hero p {
 	text-align: center;
 	font-size: 1em;
-	font-family: "HelveticaNeue-Light", serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 2em;
 	padding-bottom: 20px;
 }
 
 #hero p span {
-	font-family: "HelveticaNeue", serif;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
 }
 
 #hero a:hover {
@@ -171,7 +171,7 @@ nav a:visited {
 #what-we-do p {
 	width: 80%;
 	margin: 0px auto;
-	font-family: "HelveticaNeue-Light", serif;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 	color: #878787;
 	font-size: 1em;
 	line-height: 1.75em;
@@ -357,7 +357,7 @@ nav a:visited {
 #contact-form p {
 	width: 80%;
 	color: #878787;
-	font-family: "HelveticaNeue-Light", serif;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 	font-size: 1.125em;
 	text-align: center;
 	margin: 20px auto;
