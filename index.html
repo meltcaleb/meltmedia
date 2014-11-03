@@ -17,6 +17,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- ### FAVICON ### -->
 		<link rel="icon" href="img/favicon.png">
+		<!-- ### ADDING SMOOTH SCROLL JS -->
+		<script src="js/smooth-scroll.js"></script
 	</head>
 	<body>
 
@@ -27,11 +29,11 @@
 				<div class="logo"></div>
 				<nav>
 					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#what-we-do">About</a></li>
-						<li><a href="#super-heros">Careers</a></li>
-						<li><a href="#contact-info">Find Us</a></li>
-						<li><a href="#contact-form">Contact</a></li>
+						<li><a data-scroll href="#home">Home</a></li>
+						<li><a data-scroll href="#what-we-do">About</a></li>
+						<li><a data-scroll href="#super-heros">Careers</a></li>
+						<li><a data-scroll href="#contact-info">Find Us</a></li>
+						<li><a data-scroll href="#contact-form">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -110,6 +112,9 @@
 		<!-- ### BEGIN FOOTER ### -->
 		<footer>
 			<p><a href="http://www.meltmedia.com">meltmedia</a> &copy; copyright 2014 - Interactive <span>Superheroes</span></p>
+			<script>
+				smoothScroll.init();
+			</script>
 		</footer>
 	</body>
 </html>
